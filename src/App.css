@@ -1,22 +1,84 @@
-.App {
-  text-align: center;
+
+body{
+  background-color: black;
+  
+}
+.complex{
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputs{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+input{
+  padding: 2%;
+}
+.Credit-Card{
+  border: solid white 1px;
+  background-color: #042848;
+  width: 60%;
+  border-radius: 6%;
+  padding: 1% 6%;
+ background-image: url(https://img.freepik.com/vecteurs-libre/terre-technologie-fond-connexion-reseau_1017-17267.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Credit-Card-title{
   color: white;
+  text-align: right;
+  font-size: 70px;
+
 }
 
-.App-link {
-  color: #09d3ac;
+.Credit-Card-number{
+  color: #c2c57f;
+  width: 79%;
+  margin: 0;
+  background-color: rgba(186, 175, 125, 0.2)
+}
+.Credit-Card-number h5{
+font-size: 60px;
+margin: 0;
+}
+.Credit-Card-Content{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.valid{
+  color: white;
+  width: 12%;
+  font-size: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0px 0 6px;
+}
+.Credit-Card-Valid{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 15%;
+}
+
+.Credit-Card-holder{
+  color: white;
+  width: 50%;
+
+}
+
+.Credit-Card-Logo  {
+  width: 20%;
+}
+.Credit-Card-Logo img {
+width: 89%;
+  margin: -20px -10px 0 74px;}
+
+.month{
+  margin: 0;
+}
+
+.valid p {
+  margin-top: 0;
 }
